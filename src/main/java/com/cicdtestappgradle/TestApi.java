@@ -21,6 +21,7 @@ public class TestApi {
             @PathVariable String message
     ) {
         this.message = message;
+
         return ResponseEntity.status(HttpStatus.OK).build();
     }
 
