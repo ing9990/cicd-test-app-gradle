@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/test")
 public class TestApi {
 
+
     private String message = "hello world";
 
     @GetMapping
